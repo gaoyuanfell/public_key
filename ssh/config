@@ -1,0 +1,8 @@
+#default github
+Host github.com
+  HostName github.com
+  IdentityFile ~/.ssh/id_rsa
+
+Host github.yuan
+  HostName github.com
+  IdentityFile ~/.ssh/id_rsa_yuan
