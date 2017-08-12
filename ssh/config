@@ -7,6 +7,10 @@ Host github.yuan
   HostName github.com
   IdentityFile ~/.ssh/id_rsa_yuan
   
-Host git.oschina.yuan
-  HostName git.oschina.net
+Host gitee.yuan
+  HostName gitee.com
+  IdentityFile ~/.ssh/id_rsa_yuan
+
+Host git.coding.yuan
+  HostName git.coding.net
   IdentityFile ~/.ssh/id_rsa_yuan
