@@ -3,14 +3,18 @@ Host github.com
   HostName github.com
   IdentityFile ~/.ssh/id_rsa
 
-Host github.yuan
-  HostName github.com
-  IdentityFile ~/.ssh/id_rsa_yuan
-  
-Host gitee.yuan
-  HostName gitee.com
-  IdentityFile ~/.ssh/id_rsa_yuan
+Host gitlab.*
+  HostName gitlab.ycmedia.cn
+  IdentityFile ~/.ssh/id_rsa
 
-Host git.coding.yuan
-  HostName git.coding.net
-  IdentityFile ~/.ssh/id_rsa_yuan
+#Host github.yuan
+#  HostName github.com
+#  IdentityFile ~/.ssh/id_rsa_yuan
+  
+#Host gitee.com
+#  HostName gitee.com
+#  IdentityFile ~/.ssh/id_rsa_yuan
+
+#Host git.coding.yuan
+#  HostName git.coding.net
+#  IdentityFile ~/.ssh/id_rsa_yuan
